@@ -1,0 +1,3 @@
+# XG-Boost-Fastai_Hyperparameter-optimization_bull-dozers-data
+
+Used XGB to predict the saleprices of the bulldozers data(kaggle-blue book for bull dozers competition). Pre-processed the data (converting categorical strings to codes, handle missing continuous values, and split the dependent variable into a separate variable) using Fastai train_cats and Proc_df libraries and then performed  Hyperparameter optimization using RandomizedSearchCV to get best estimators. These estimators were used to build a XGB regressor. The model was able to prdict the sae price with Root mean sqaured log error(RMSLE) of 0.20 and m-score of 0.91
